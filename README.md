@@ -49,18 +49,21 @@ A smart and interactive Book Recommendation System built with **Streamlit** that
 ---
 
 ## 📂 Project Structure
-
-├── app.py # Streamlit app
-
-├── filtered_books.pkl # Book metadata with images and genre
-
-├── pt.pkl # Pivot table for book-user matrix
-
-├── similarities.zip # Compressed similarity matrix
-
-├── requirements.txt # Python dependencies
-
-└── README.md 
+```bash
+book-recommendation-system/
+│
+├── .devcontainer/                  # (Optional) VS Code Dev Container config
+├── Books.zip                       # Zipped folder containing book metadata
+├── Ratings.csv                     # Dataset: User ratings for books
+├── Users.csv                       # Dataset: User metadata
+├── app.py                          # Flask or Streamlit app for web interface
+├── book-recommendation-system.ipynb # Jupyter notebook with code and EDA
+├── filtered_books.pkl              # Pickle file of filtered book metadata
+├── pt.pkl                          # Pickle file of pivot table or model
+├── similarities.zip                # Zipped similarity matrix/model
+├── requirements.txt                # List of Python dependencies
+└── README.md                       # Project documentation
+```
 
 ---
 
